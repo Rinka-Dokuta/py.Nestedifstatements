@@ -1,0 +1,17 @@
+choice = input("Do you like Italian or Mexican?")
+if choice == "Italian":
+    choice2 = input("Do you like pizza or pasta?")
+    if choice2 == "Pizza":
+        print("I recommend Marco's Pizza!")
+    elif choice2 == "pasta":
+        print("I recommend Olive garden!")
+    else:
+        print("That's not a choice")
+elif choice == "Mexican":
+      choice2 = input("Do you like Tacos or burritos?")
+      if choice2 == "Tacos":
+          print("I recommend Taqueria Columbine! Pretty far tho")
+      elif choice2 == "burritos":
+          print("I recommend Señor Burritos! Also pretty far....")
+      else:
+          print("That's not a choice")
